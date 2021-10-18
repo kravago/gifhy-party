@@ -6,7 +6,7 @@ async function searchGif() {
             { 
                 params: { 
                     q: q.value, 
-                    api_key: token
+                    api_key: TOKEN
                 },  
             }
         );
