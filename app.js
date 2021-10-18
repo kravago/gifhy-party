@@ -2,7 +2,7 @@ async function searchGif() {
     try {
         q = document.querySelector('#search');
 
-        const result = await axios.get("http://api.giphy.com/v1/gifs/search",
+        const result = await axios.get("https://api.giphy.com/v1/gifs/search",
             { 
                 params: { 
                     q: q.value, 
