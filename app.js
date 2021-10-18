@@ -32,6 +32,18 @@ async function addGifImage(e) {
 }
 
 
+function removeAll(e) {
+    e.preventDefault();
+
+    //select all imgs and remove
+    const imgs = document.querySelectorAll('img');
+    for (let img of imgs) {
+        img.remove();
+    }
+}
 // main
 submitButton = document.querySelector('#submit');
 submitButton.addEventListener("click", async (e) => {addGifImage(e)});
+
+removeButton = document.querySelector('#remove');
+removeButton.addEventListener('click', (e) => {removeAll(e)});
