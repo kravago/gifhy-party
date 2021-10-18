@@ -11,6 +11,7 @@ async function searchGif() {
             }
         );
         
+        q.value = ''  // clear val after search
         return result;
 
     } catch(e) {
