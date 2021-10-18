@@ -1,5 +1,6 @@
 // hide api key
 secrets.js
 
-// vscode
+// dev environment stuff to hide
+.DS_Store
 .vscode
