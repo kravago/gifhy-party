@@ -6,7 +6,7 @@ async function searchGif() {
             { 
                 params: { 
                     q: q.value, 
-                    api_key: TOKEN
+                    api_key: 'MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym'
                 },  
             }
         );
@@ -41,6 +41,8 @@ function removeAll(e) {
         img.remove();
     }
 }
+
+
 // main
 submitButton = document.querySelector('#submit');
 submitButton.addEventListener("click", async (e) => {addGifImage(e)});
